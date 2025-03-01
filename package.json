@@ -2,7 +2,7 @@
   "name": "blog-club-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,9 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "prisma": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.8.2"
   }
 }
